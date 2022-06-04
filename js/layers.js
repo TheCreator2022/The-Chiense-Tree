@@ -36,5 +36,10 @@ addLayer("一", {
     		description: "Start super gaining points.",
     		cost: new Decimal(100),
         },
+		13: {
+			title: "U+4E00 100 Gain Product",
+    		description: "Start super gaining this points.",
+    		cost: new Decimal(500),
+        },
     },
 })
