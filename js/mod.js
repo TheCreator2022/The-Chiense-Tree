@@ -47,6 +47,9 @@ function getPointGen() {
 	if (hasUpgrade('一', 13)) gain = gain.add(100)
 	if (hasUpgrade('一', 14)) gain = gain.add(2500)
 	if (hasUpgrade('一', 15)) gain = gain.add(25000)
+	if (hasUpgrade('T', 11)) gain = gain.add(2)
+        if (hasUpgrade('T', 12)) gain = gain.add(7)
+        if (hasUpgrade('T', 13)) gain = gain.add(1000)
 	return gain
 }
 
