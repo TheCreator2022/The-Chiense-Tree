@@ -76,12 +76,12 @@ addLayer("C", {
     		description: "10^500 mulit",
     		cost: new Decimal("1e550"),
         },
-		25: {
+		26: {
 			title: "Waiting for tertate",
     		description: "eee2e308 mulit",
     		cost: new Decimal("1e1050"),
         },
-		26: {
+		27: {
 			title: "Ultimato Upgrade | Win for percentage",
     		description: "This tree a Win This get ultimated for percentage by 50.",
     		cost: new Decimal("eeee308"),
