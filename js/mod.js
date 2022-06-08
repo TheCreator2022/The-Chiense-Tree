@@ -1,5 +1,5 @@
 let modInfo = {
-	name: "The ??? Tree",
+	name: "The Coin Tree",
 	id: "mymod",
 	author: "nobody",
 	pointsName: "points",
@@ -43,6 +43,17 @@ function getPointGen() {
 		return new Decimal(0)
 
 	let gain = new Decimal(1)
+        if (hasUpgrade('C', 12)) gain = gain.add(4)
+        if (hasUpgrade('C', 13)) gain = gain.times(10)
+        if (hasUpgrade('C', 14)) gain = gain.add(1e6)
+        if (hasUpgrade('C', 15)) gain = gain.times(1e6)
+        if (hasUpgrade('C', 21)) gain = gain.times(1e12)
+        if (hasUpgrade('C', 22)) gain = gain.times(1e33)
+        if (hasUpgrade('C', 23)) gain = gain.times(1e100)
+        if (hasUpgrade('C', 24)) gain = gain.times("1e400")
+        if (hasUpgrade('C', 25)) gain = gain.times("1e500")
+        if (hasUpgrade('C', 26)) gain = gain.times("eee2e308")
+        if (hasUpgrade('C', 27)) gain = gain.times(1.5)
 	return gain
 }
 
