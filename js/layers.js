@@ -31,5 +31,60 @@ addLayer("C", {
     		description: "Start gaining points.",
     		cost: new Decimal(1),
         },
+		12: {
+			title: "Add Points",
+    		description: "add This one.",
+    		cost: new Decimal(2),
+        },
+		13: {
+			title: "Wheel Gaing Desculpe Gain",
+    		description: "Gain This mulitipler Of 10",
+    		cost: new Decimal(50),
+        },
+		14: {
+			title: "Million gain",
+    		description: "add This million",
+    		cost: new Decimal(4000),
+        },
+		15: {
+			title: "times million",
+    		description: "what",
+    		cost: new Decimal(1e6),
+        },
+		21: {
+			title: "times trillion",
+    		description: "Wheel do get a trillion!",
+    		cost: new Decimal(1e12),
+        },
+		22: {
+			title: "Decillion mulit",
+    		description: "Decillion mulit",
+    		cost: new Decimal(1e17),
+        },
+		23: {
+			title: "Googol mulit",
+    		description: "what If do there creators?",
+    		cost: new Decimal(1e50),
+        },
+		24: {
+			title: "10 Power 400 of mulit",
+    		description: "what If do there creators?",
+    		cost: new Decimal(1e150),
+        },
+		25: {
+			title: "10 Power 500 of mulit",
+    		description: "10^500 mulit",
+    		cost: new Decimal("1e550"),
+        },
+		25: {
+			title: "Waiting for tertate",
+    		description: "eee2e308 mulit",
+    		cost: new Decimal("1e1050"),
+        },
+		26: {
+			title: "Ultimato Upgrade | Win for percentage",
+    		description: "This tree a Win This get ultimated for percentage by 50.",
+    		cost: new Decimal("eeee308"),
+        },
     },
 })
